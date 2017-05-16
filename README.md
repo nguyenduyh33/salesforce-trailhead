@@ -1,6 +1,8 @@
 # salesforce-trailhead
 Duy's salesforce trailhead project
 
+[My Trailhead Profile Link](https://trailhead.salesforce.com/users/profiles/00550000006ddSaAAI)
+
 ## Progress
 
 ### Trail: Developer Beginner
