@@ -68,18 +68,22 @@
                 <value>
                     <fullName>Hot</fullName>
                     <default>false</default>
+                    <label>Hot</label>
                 </value>
                 <value>
                     <fullName>Warm</fullName>
                     <default>false</default>
+                    <label>Warm</label>
                 </value>
                 <value>
                     <fullName>Cool</fullName>
                     <default>false</default>
+                    <label>Cool</label>
                 </value>
                 <value>
                     <fullName>Manager Favorite</fullName>
                     <default>false</default>
+                    <label>Manager Favorite</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -97,4 +101,5 @@
     <pluralLabel>Candidates</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

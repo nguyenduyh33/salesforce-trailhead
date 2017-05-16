@@ -3,6 +3,7 @@
     <formFactors>Small</formFactors>
     <formFactors>Medium</formFactors>
     <formFactors>Large</formFactors>
+    <label>Sales</label>
     <navType>Standard</navType>
     <tab>standard-home</tab>
     <tab>standard-Chatter</tab>

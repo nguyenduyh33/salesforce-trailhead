@@ -100,4 +100,5 @@
     <pluralLabel>Campsite Reservations</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>
