@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>New Customer Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>New Customer Flow</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_Account</name>
+        <label>Create Account</label>
+        <locationX>119</locationX>
+        <locationY>188</locationY>
+        <connector>
+            <targetReference>Create_Contact</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>Company_Name</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Contact</name>
+        <label>Create Contact</label>
+        <locationX>147</locationX>
+        <locationY>305</locationY>
+        <connector>
+            <targetReference>Create_Opportunity</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FirstName</field>
+            <value>
+                <elementReference>First_Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LastName</field>
+            <value>
+                <elementReference>Last_Name</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Opportunity</name>
+        <label>Create Opportunity</label>
+        <locationX>163</locationX>
+        <locationY>428</locationY>
+        <inputAssignments>
+            <field>CloseDate</field>
+            <value>
+                <dateValue>2017-06-11</dateValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>{Company_Name} - {Last Name}</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StageName</field>
+            <value>
+                <stringValue>Prospecting</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordCreates>
+    <screens>
+        <name>Create_Customer</name>
+        <label>Create Customer</label>
+        <locationX>98</locationX>
+        <locationY>46</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Create_Account</targetReference>
+        </connector>
+        <fields>
+            <name>First_Name</name>
+            <dataType>String</dataType>
+            <fieldText>First Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Last_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Last Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Company_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Company Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Opportunity_Amount</name>
+            <dataType>Number</dataType>
+            <fieldText>Opportunity Amount</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Opportunity_Stage</name>
+            <dataType>String</dataType>
+            <fieldText>Opportunity Stage</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+    </screens>
+    <startElementReference>Create_Customer</startElementReference>
+</Flow>

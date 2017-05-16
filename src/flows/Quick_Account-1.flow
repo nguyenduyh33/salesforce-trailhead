@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Quick Account {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Quick Account</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_Account</name>
+        <label>Create Account</label>
+        <locationX>141</locationX>
+        <locationY>169</locationY>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>Account_Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Phone</field>
+            <value>
+                <elementReference>Phone_Number</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordCreates>
+    <screens>
+        <name>New_Account</name>
+        <label>New Account</label>
+        <locationX>111</locationX>
+        <locationY>27</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Create_Account</targetReference>
+        </connector>
+        <fields>
+            <name>Account_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Account Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Phone_Number</name>
+            <dataType>Number</dataType>
+            <fieldText>Phone Number</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+    </screens>
+    <startElementReference>New_Account</startElementReference>
+</Flow>

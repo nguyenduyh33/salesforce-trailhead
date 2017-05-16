@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>TrainingCoordinatorReadOnlyProject</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>TrainingCoordinatorReadOnlyProject</label>
+        <sharedTo>
+            <role>Training_Coordinator</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Priority__c</field>
+            <operation>equals</operation>
+            <value>High</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>
