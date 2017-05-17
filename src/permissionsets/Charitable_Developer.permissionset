@@ -276,6 +276,10 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Custom_Account_List</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Fundraiser__c</tab>
         <visibility>None</visibility>
     </tabSettings>

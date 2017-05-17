@@ -14,4 +14,5 @@
     <tab>Campsite__c</tab>
     <tab>Quick_Account_Page</tab>
     <tab>Create_Customer</tab>
+    <tab>Custom_Account_List</tab>
 </CustomApplication>

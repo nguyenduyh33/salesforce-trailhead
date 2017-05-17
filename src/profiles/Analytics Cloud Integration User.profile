@@ -559,6 +559,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Custom_Account_List</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Fundraiser__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>

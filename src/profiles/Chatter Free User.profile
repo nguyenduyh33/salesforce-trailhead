@@ -451,6 +451,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Custom_Account_List</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Fundraiser__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>

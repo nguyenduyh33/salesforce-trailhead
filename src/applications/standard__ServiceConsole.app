@@ -181,6 +181,7 @@
     <tab>Campsite__c</tab>
     <tab>Quick_Account_Page</tab>
     <tab>Create_Customer</tab>
+    <tab>Custom_Account_List</tab>
     <workspaceMappings>
         <mapping>
             <tab>Campsite__c</tab>
@@ -190,6 +191,9 @@
         </mapping>
         <mapping>
             <tab>Create_Customer</tab>
+        </mapping>
+        <mapping>
+            <tab>Custom_Account_List</tab>
         </mapping>
         <mapping>
             <tab>Position__c</tab>
