@@ -86,6 +86,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>EmailMissionSpecialist</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>NewCaseListController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -428,6 +432,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>ShowImage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>StationCheck</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
