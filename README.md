@@ -6,7 +6,7 @@ Duy's salesforce trailhead project
 ## Training Progress
 ----
 
-- **Developer Beginner** :white_check_mark:
+- **Developer Beginner**   :star2:
 
 | Module | Status |
 | ------ | ------ |
@@ -24,4 +24,4 @@ Duy's salesforce trailhead project
 | Developer Console Basics | :white_check_mark: |
 | Search Solution Basics | :white_check_mark: |
 
-- **Quick Start: Lightning Components** :white_check_mark:
+- **Quick Start: Lightning Components**   :star2:
