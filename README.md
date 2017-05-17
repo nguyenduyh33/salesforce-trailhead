@@ -3,9 +3,10 @@ Duy's salesforce trailhead project
 
 [My Trailhead Profile Link](https://trailhead.salesforce.com/users/profiles/00550000006ddSaAAI)
 
-## Progress
+## Training Progress
+----
 
-### Trail: Developer Beginner
+- **Developer Beginner** :white_check_mark:
 
 | Module | Status |
 | ------ | ------ |
@@ -22,3 +23,5 @@ Duy's salesforce trailhead project
 | Visualforce Basics | :white_check_mark: |
 | Developer Console Basics | :white_check_mark: |
 | Search Solution Basics | :white_check_mark: |
+
+- **Quick Start: Lightning Components** :white_check_mark:
