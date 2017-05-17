@@ -21,4 +21,4 @@ Duy's salesforce trailhead project
 | Apex Testing | :white_check_mark: |
 | Visualforce Basics | :white_check_mark: |
 | Developer Console Basics | :white_check_mark: |
-| Search Solution Basics | :white_medium_square: |
+| Search Solution Basics | :white_check_mark: |
